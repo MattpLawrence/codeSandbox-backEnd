@@ -1,5 +1,9 @@
 //this page is included for scalability and as entrance point
+const router = require("express").Router();
 
-const Url = require("./Url");
+// set up router to be accessible when called in server.js
+const urlRoutes = require("./urlRoute");
 
-module.exports = { Url };
+router.use("/", urlRoutes);
+
+module.exports = router;
