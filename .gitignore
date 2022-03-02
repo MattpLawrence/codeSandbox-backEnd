@@ -1,0 +1,4 @@
+.env
+
+# There dont seem to be node modules folders in this sandbox, but I will include this anyway
+node-modules
